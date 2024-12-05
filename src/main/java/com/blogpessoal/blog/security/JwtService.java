@@ -17,14 +17,14 @@ import io.jsonwebtoken.security.Keys;
 
 @Component
 public class JwtService {
-
-	public static final String SECRET = "bf0b62edab9c25ed15d8ad7487c3e0a987c279f477c98cc00863147ecb4d9d71";
-
+										
+	public static final String SECRET = "5367566B59703373367639792F423F4528482B4D6251655468576D5A71347437";
+			
 	private Key getSignKey() {
 		byte[] keyBytes = Decoders.BASE64.decode(SECRET);
 		return Keys.hmacShaKeyFor(keyBytes);
 	}
-
+	
 	private Claims extractAllClaims(String token) {
 		return Jwts.parserBuilder()
 				.setSigningKey(getSignKey()).build()
