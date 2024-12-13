@@ -18,7 +18,7 @@ import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name = "tb_usuarios")
-public class Usuario {
+public class Usuario { 
 
 	public Usuario(Long id, String nome, String usuario, String senha, String foto) {
 		this.id = id;
