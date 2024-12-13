@@ -28,7 +28,7 @@ public class Usuario {
 		this.foto = foto;
 	}
 
-	public Usuario() { }
+	public Usuario() { } 
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
