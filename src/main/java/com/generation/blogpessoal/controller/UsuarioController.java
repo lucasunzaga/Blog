@@ -24,7 +24,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/usuarios")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "5173", allowedHeaders = "5173")
 public class UsuarioController {
 
 	@Autowired
