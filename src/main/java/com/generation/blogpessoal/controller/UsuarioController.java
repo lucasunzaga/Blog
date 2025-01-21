@@ -24,7 +24,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/usuarios")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "https://blogpessoal-h5ho.onrender.com", allowedHeaders = "*")
 public class UsuarioController {
 
 	@Autowired
