@@ -47,7 +47,7 @@ public class TemaController {
 		return ResponseEntity.ok(temaRepository.save(tema));
 	}
 	
-	@PutMapping("/post")
+	@PutMapping("/put")
 	public ResponseEntity<Tema> updatePostagem(@RequestBody Tema tema){
 		return ResponseEntity.ok(temaRepository.save(tema));
 	}
